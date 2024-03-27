@@ -6,7 +6,7 @@ import { reasonList } from './data';
 
 type Props = {};
 
-function WhyChoose({}: Props) {
+function Reason({}: Props) {
   return (
     <Section className="">
       <div className="flex flex-col-reverse gap-10 lg:flex-row">
@@ -32,4 +32,4 @@ function WhyChoose({}: Props) {
   );
 }
 
-export default WhyChoose;
+export default Reason;

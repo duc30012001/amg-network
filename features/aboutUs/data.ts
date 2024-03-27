@@ -1,75 +1,45 @@
-import amazonLogo from '@/assets/platform/2z7KEB-1.svg';
-import facebookLogo from '@/assets/platform/QnXaH8.svg';
-import napsterLogo from '@/assets/platform/Recurso-15.svg';
-import qobuzLogo from '@/assets/platform/Recurso-16.svg';
-import soundCloudLogo from '@/assets/platform/Recurso-18.svg';
-import spotifyLogo from '@/assets/platform/Recurso-19.svg';
-import tikTokLogo from '@/assets/platform/Recurso-22.svg';
-import youtubeLogo from '@/assets/platform/Recurso-23.svg';
-import appleMusicLogo from '@/assets/platform/f2voCe.svg';
-import deezerLogo from '@/assets/platform/g10.svg';
 // import kkboxLogo from '@/assets/platform/kkbox.svg';
 
 export const logoList = [
   {
-    id: 1,
-    src: amazonLogo,
-    alt: 'Amazon Music',
-  },
-  {
     id: 2,
-    src: appleMusicLogo,
-    alt: 'Apple Music',
-  },
-  {
-    id: 3,
-    src: youtubeLogo,
+    src: '/platforms/youtube.svg',
     alt: 'Youtube',
   },
   {
-    id: 4,
-    src: deezerLogo,
-    alt: 'Deezer',
-  },
-  {
-    id: 5,
-    src: spotifyLogo,
-    alt: 'Spotify',
-  },
-  {
-    id: 6,
-    src: tikTokLogo,
+    id: 3,
+    src: '/platforms/tiktok.svg',
     alt: 'TikTok',
   },
   {
-    id: 7,
-    src: soundCloudLogo,
-    alt: 'SoundCloud',
+    id: 4,
+    src: '/platforms/vtv.svg',
+    alt: 'VTV',
   },
   {
     id: 8,
-    src: facebookLogo,
+    src: '/platforms/spotify.svg',
+    alt: 'Spotify',
+  },
+  {
+    id: 5,
+    src: '/platforms/dantri.svg',
+    alt: 'Dan Tri',
+  },
+  {
+    id: 7,
+    src: '/platforms/facebook.svg',
     alt: 'Facebook',
   },
-  // {
-  //   id: 9,
-  //   src: tidalLogo,
-  //   alt: 'TIDAL',
-  // },
-  // {
-  //   id: 10,
-  //   src: kkboxLogo,
-  //   alt: 'KKBOX',
-  // },
   {
-    id: 11,
-    src: napsterLogo,
-    alt: 'Napster',
+    id: 6,
+    src: '/platforms/epidemic.svg',
+    alt: 'Epidemic',
   },
   {
-    id: 12,
-    src: qobuzLogo,
-    alt: 'Qobuz',
+    id: 1,
+    src: '/platforms/warner.svg',
+    alt: 'Warner Music',
   },
 ];
 

@@ -6,11 +6,7 @@ type Props = {};
 
 function VisionSection({}: Props) {
   return (
-    <Section
-      title="Share our vision, understand our mission"
-      //   description="Republic Network is able to carry out the reciprocity between the different Collecting Societies and the YouTube platform in the territory of the USA and its associated states."
-      className="my-16"
-    >
+    <Section title="Share our vision, understand our mission" className="my-16">
       <ul className="grid grid-cols-1 gap-10 md:grid-cols-3 xl:grid-cols-5">
         {visions.map(({ id, name, image }) => (
           <li key={id} className="">

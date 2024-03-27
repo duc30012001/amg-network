@@ -1,7 +1,7 @@
-import { EMAIL_URL, WHATSAPP_URL } from '@/utils/constants';
+import { EMAIL_URL } from '@/utils/constants';
 import { ReactNode } from 'react';
 
-const support = process.env.WHATSAPP;
+// const support = process.env.WHATSAPP;
 const email = process.env.EMAIL;
 
 export type publicRoutesType = {
@@ -17,11 +17,11 @@ export const publicRoutes: publicRoutesType[] = [
     label: 'Home',
     href: '/',
   },
-  {
-    id: 1,
-    label: 'About us',
-    href: '/about',
-  },
+  // {
+  //   id: 1,
+  //   label: 'About us',
+  //   href: '/about',
+  // },
   // {
   //   id: 2,
   //   label: 'Pricing',
@@ -50,16 +50,16 @@ export const footerRoutes: footerRoutesType[] = [
     id: 1,
     label: 'Get Started',
     children: [
-      {
-        id: '1-1',
-        label: 'About us',
-        href: '/about',
-      },
-      {
-        id: '1-4',
-        label: 'Pricing',
-        href: '/pricing',
-      },
+      // {
+      //   id: '1-1',
+      //   label: 'About us',
+      //   href: '/about',
+      // },
+      // {
+      //   id: '1-4',
+      //   label: 'Pricing',
+      //   href: '/pricing',
+      // },
       {
         id: '1-2',
         label: 'FAQ',
@@ -82,12 +82,12 @@ export const footerRoutes: footerRoutesType[] = [
         href: EMAIL_URL,
         target: '_blank',
       },
-      {
-        id: '2-2',
-        label: 'WhatsApp: ' + support,
-        href: WHATSAPP_URL,
-        target: '_blank',
-      },
+      // {
+      //   id: '2-2',
+      //   label: 'WhatsApp: ' + support,
+      //   href: WHATSAPP_URL,
+      //   target: '_blank',
+      // },
     ],
   },
 ];
