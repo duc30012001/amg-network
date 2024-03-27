@@ -1,6 +1,6 @@
 import Section from '@/components/section';
 import Image from 'next/image';
-import { services } from './data';
+import { visions } from './data';
 
 type Props = {};
 
@@ -12,7 +12,7 @@ function VisionSection({}: Props) {
       className="my-16"
     >
       <ul className="grid grid-cols-1 gap-10 md:grid-cols-3 xl:grid-cols-5">
-        {services.map(({ id, name, image }) => (
+        {visions.map(({ id, name, image }) => (
           <li key={id} className="">
             <Image
               src={image}
