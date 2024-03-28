@@ -1,5 +1,4 @@
 import dayjs from 'dayjs';
-import AppLogo from '../header/appLogo';
 
 type Props = {};
 
@@ -25,7 +24,7 @@ function CopyRight({}: Props) {
           </a>
         </span> */}
       </p>
-      <AppLogo />
+      {/* <AppLogo /> */}
     </div>
   );
 }

@@ -1,11 +1,19 @@
 import Link from 'next/link';
+import AppLogo from '../header/appLogo';
 import { footerRoutes } from '../routes';
 
 type Props = {};
 
 function FooterNav({}: Props) {
   return (
-    <ul className="mb-20 grid gap-14 sm:grid-cols-2">
+    <ul className="mb-20 grid gap-14 sm:grid-cols-2 lg:grid-cols-4">
+      <li className="col-span-2">
+        <AppLogo />
+        <h3 className="mt-3 font-medium">
+          Suite 126 West Link House, 981 Great West Road, London, United
+          Kingdom, TW8 9DN
+        </h3>
+      </li>
       {footerRoutes.map((item) => (
         <li key={item.id}>
           <h3 className="mb-4 text-xl font-bold text-white">{item.label}</h3>
