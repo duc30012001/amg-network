@@ -6,7 +6,7 @@ type Props = {};
 
 function FooterNav({}: Props) {
   return (
-    <ul className="mb-20 grid gap-14 sm:grid-cols-2 lg:grid-cols-4">
+    <ul className="mb-20 grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-4">
       <li className="col-span-2">
         <AppLogo />
         <h3 className="mt-3 font-medium">
@@ -15,7 +15,7 @@ function FooterNav({}: Props) {
         </h3>
       </li>
       {footerRoutes.map((item) => (
-        <li key={item.id}>
+        <li key={item.id} className="col-span-2 sm:col-span-1">
           <h3 className="mb-4 text-xl font-bold text-white">{item.label}</h3>
           <ul className="flex list-none flex-col space-y-3">
             {item.children.map((child) => (

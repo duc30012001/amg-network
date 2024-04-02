@@ -1,7 +1,7 @@
 import { EMAIL_URL } from '@/utils/constants';
 import { ReactNode } from 'react';
 
-// const support = process.env.WHATSAPP;
+const support = '+44 7893 936655';
 const email = process.env.EMAIL;
 
 export type publicRoutesType = {
@@ -82,12 +82,12 @@ export const footerRoutes: footerRoutesType[] = [
         href: EMAIL_URL,
         target: '_blank',
       },
-      // {
-      //   id: '2-2',
-      //   label: 'WhatsApp: ' + support,
-      //   href: WHATSAPP_URL,
-      //   target: '_blank',
-      // },
+      {
+        id: '2-2',
+        label: 'Call: ' + support,
+        target: '_blank',
+        href: 'tel:+447893936655',
+      },
     ],
   },
 ];
