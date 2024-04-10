@@ -29,11 +29,11 @@ function Introduce({}: Props) {
       </video>
       <div className="absolute bottom-2 left-2 right-2 top-2 flex flex-col items-center justify-center">
         <h2 className="section-header mb-1 text-center text-4xl font-bold capitalize leading-tight">
-          Empowering Your Content
+          Enhancing Your Content
         </h2>
         <p className="text-center leading-loose">
-          In-house technology to register your songs and monetize your music
-          content
+          Using our proprietary technology to catalog your tracks and generate
+          revenue from your musical creations
         </p>
 
         <NavigateButton href="/contact" className="mt-10">

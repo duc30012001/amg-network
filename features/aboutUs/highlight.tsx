@@ -7,8 +7,8 @@ type Props = {};
 function Highlight({}: Props) {
   return (
     <Section
-      title="Reciprocity between Management Organizations and YouTube"
-      description="AMG Network is able to carry out the reciprocity between the different Collecting Societies and the YouTube platform in the territory of the USA and its associated states."
+      title="Partners"
+      description="At AMG Network  we believe in the power of collaboration. Our success is built on strong relationships with industry leaders, technology innovators, and creative minds."
       className="my-16"
     >
       <div className="lg:grid-cols65 grid grid-cols-3 gap-10 sm:grid-cols-4">

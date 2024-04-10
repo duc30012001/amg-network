@@ -2,6 +2,11 @@
 
 export const logoList = [
   {
+    id: 1,
+    src: '/platforms/warner.svg',
+    alt: 'Warner Music',
+  },
+  {
     id: 2,
     src: '/platforms/youtube.svg',
     alt: 'Youtube',
@@ -22,11 +27,6 @@ export const logoList = [
     alt: 'Spotify',
   },
   {
-    id: 5,
-    src: '/platforms/dantri.svg',
-    alt: 'Dan Tri',
-  },
-  {
     id: 7,
     src: '/platforms/facebook.svg',
     alt: 'Facebook',
@@ -37,9 +37,9 @@ export const logoList = [
     alt: 'Epidemic',
   },
   {
-    id: 1,
-    src: '/platforms/warner.svg',
-    alt: 'Warner Music',
+    id: 5,
+    src: '/platforms/dantri.svg',
+    alt: 'Dan Tri',
   },
 ];
 
